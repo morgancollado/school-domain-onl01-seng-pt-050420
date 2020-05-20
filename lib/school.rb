@@ -17,7 +17,7 @@ end
 
 def sort
   @roster.each do |grade, array_of_names|
-    array_of_names.sort
+    array_of_names.sort = @roster
   end 
   @roster
 end 
