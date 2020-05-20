@@ -16,7 +16,7 @@ def grade(grade)
 end 
 
 def sort
-  @roster.collect do |grade, name|
+  @roster.collect do |grade, array_of_names|
     @roster.sort
   end 
 end 
