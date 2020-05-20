@@ -16,6 +16,6 @@ def grade(grade)
 end 
 
 def sort
-  @roster.sort
+  @roster.alphabetize
 end 
 end 
